@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-image: url("tinderbg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar {
+    background-image: linear-gradient(black, transparent);
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+.tpicons {
+    list-style: none;
+
+
+}
+
+.tpicons li {
+    float: left;
+    /* margin: 10px; */
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.tpicons li a{
+    text-decoration: none;
+    color: white;
+}
+.tpicons li a:hover{
+    text-decoration:underline;
+    color:red;
+    cursor: pointer;
+}
+.logo {
+    width: 90px;
+}
+
+.button {
+    float: right;
+    border: 0px;
+    border-radius: 50px;
+    margin: 10px;
+    height: 50px;
+    width: 140px;
+}
+.centertext {
+    position: absolute;
+    /* width: 40%; */
+    top: 40%;
+    /* right: 50%; */
+    font-size: 70px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.text1 {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.crtact {
+    color: white;
+    float: left;
+    display: inline-block;
+    /* background-color: hotpink; */
+    background-image: linear-gradient(red,hotpink);
+    width: 20%;
+    margin: auto 39%;
+    font-size: 25px;
+    font-weight: bold;
+}
